@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-round2",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Round a numeric value to the nearest power of two on a linear scale.",
   "license": "Apache-2.0",
   "author": {
