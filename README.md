@@ -24,14 +24,30 @@ limitations under the License.
 
 > Round a numeric value to the nearest power of two on a linear scale.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-round2
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@esm/index.mjs';
+var round2 = require( '@stdlib/math-base-special-round2' );
 ```
 
 #### round2( x )
@@ -86,14 +102,9 @@ v = round2( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round2 = require( '@stdlib/math-base-special-round2' );
 
 var x;
 var v;
@@ -104,10 +115,6 @@ for ( i = 0; i < 100; i++ ) {
     v = round2( x );
     console.log( 'Value: %d. Rounded: %d.', x, v );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -122,10 +129,10 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/ceil2`][@stdlib/math/base/special/ceil2]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest power of two toward positive infinity.</span>
--   <span class="package-name">[`@stdlib/math/base/special/floor2`][@stdlib/math/base/special/floor2]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest power of two toward negative infinity.</span>
--   <span class="package-name">[`@stdlib/math/base/special/round`][@stdlib/math/base/special/round]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest integer.</span>
--   <span class="package-name">[`@stdlib/math/base/special/round10`][@stdlib/math/base/special/round10]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest power of 10 on a linear scale.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/ceil2`][@stdlib/math/base/special/ceil2]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest power of two toward positive infinity.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/floor2`][@stdlib/math/base/special/floor2]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest power of two toward negative infinity.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/round`][@stdlib/math/base/special/round]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest integer.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/round10`][@stdlib/math/base/special/round10]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest power of 10 on a linear scale.</span>
 
 </section>
 
@@ -140,7 +147,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -202,13 +209,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2/tree/esm
+[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2
 
-[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2/tree/esm
+[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2
 
-[@stdlib/math/base/special/round]: https://github.com/stdlib-js/math-base-special-round/tree/esm
+[@stdlib/math/base/special/round]: https://github.com/stdlib-js/math-base-special-round
 
-[@stdlib/math/base/special/round10]: https://github.com/stdlib-js/math-base-special-round10/tree/esm
+[@stdlib/math/base/special/round10]: https://github.com/stdlib-js/math-base-special-round10
 
 <!-- </related-links> -->
 
