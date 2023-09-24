@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-round2",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Round a numeric value to the nearest power of two on a linear scale.",
   "license": "Apache-2.0",
   "author": {
@@ -37,22 +37,22 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-float64-max-base2-exponent": "^0.0.8",
-    "@stdlib/constants-float64-min-base2-exponent-subnormal": "^0.0.8",
-    "@stdlib/constants-float64-pinf": "^0.0.8",
-    "@stdlib/math-base-assert-is-infinite": "^0.0.9",
-    "@stdlib/math-base-assert-is-nan": "^0.0.8",
-    "@stdlib/math-base-special-ceil": "^0.0.8",
-    "@stdlib/math-base-special-floor": "^0.0.8",
-    "@stdlib/math-base-special-log2": "^0.0.7",
-    "@stdlib/math-base-special-pow": "^0.0.7"
+    "@stdlib/constants-float64-max-base2-exponent": "^0.1.0",
+    "@stdlib/constants-float64-min-base2-exponent-subnormal": "^0.1.0",
+    "@stdlib/constants-float64-pinf": "^0.1.0",
+    "@stdlib/math-base-assert-is-infinite": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/math-base-special-ceil": "^0.1.0",
+    "@stdlib/math-base-special-floor": "^0.1.0",
+    "@stdlib/math-base-special-log2": "^0.1.0",
+    "@stdlib/math-base-special-pow": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/constants-float64-ninf": "^0.0.8",
-    "@stdlib/constants-float64-smallest-subnormal": "^0.0.8",
-    "@stdlib/math-base-assert-is-negative-zero": "^0.0.8",
-    "@stdlib/math-base-assert-is-positive-zero": "^0.0.8",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/constants-float64-ninf": "^0.1.0",
+    "@stdlib/constants-float64-smallest-subnormal": "^0.1.0",
+    "@stdlib/math-base-assert-is-negative-zero": "^0.1.0",
+    "@stdlib/math-base-assert-is-positive-zero": "^0.1.0",
     "@stdlib/math-base-special-exp2": "^0.0.6",
     "@stdlib/random-base-randu": "^0.0.8",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
