@@ -42,9 +42,9 @@
     "@stdlib/constants-float64-pinf": "^0.1.1",
     "@stdlib/math-base-assert-is-infinite": "^0.1.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
-    "@stdlib/math-base-special-ceil": "^0.1.0",
-    "@stdlib/math-base-special-floor": "^0.1.0",
-    "@stdlib/math-base-special-log2": "^0.1.0",
+    "@stdlib/math-base-special-ceil": "^0.1.1",
+    "@stdlib/math-base-special-floor": "^0.1.1",
+    "@stdlib/math-base-special-log2": "^0.1.1",
     "@stdlib/math-base-special-pow": "^0.1.0"
   },
   "devDependencies": {
