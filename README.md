@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-round2/tags). For example,
+
+```javascript
 import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@v0.2.0-deno/mod.js';
 ```
 
@@ -99,7 +104,7 @@ v = round2( NaN );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@v0.2.0-deno/mod.js';
+import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@deno/mod.js';
 
 var x;
 var v;
