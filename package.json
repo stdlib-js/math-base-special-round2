@@ -45,7 +45,8 @@
     "@stdlib/math-base-special-ceil": "^0.2.0",
     "@stdlib/math-base-special-floor": "^0.2.0",
     "@stdlib/math-base-special-log2": "^0.2.0",
-    "@stdlib/math-base-special-pow": "^0.2.0"
+    "@stdlib/math-base-special-pow": "^0.2.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/constants-float64-ninf": "^0.1.1",
