@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-08)
+## Unreleased (2024-07-14)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`e9d0de8`](https://github.com/stdlib-js/stdlib/commit/e9d0de8077f47e49ff703c1b106e262454e5d15d) - **chore:** update package meta data [(#2596)](https://github.com/stdlib-js/stdlib/pull/2596) _(by stdlib-bot, Athan Reines)_
 -   [`efc3551`](https://github.com/stdlib-js/stdlib/commit/efc3551764c30c6cae9a48058cae2868d4055190) - **feat:** add C implementation for `math/base/special/round2` [(##2537)](#2537) _(by Gunj Joshi)_
 
 </details>
@@ -34,8 +35,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 
 </section>
