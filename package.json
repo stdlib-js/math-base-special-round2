@@ -53,13 +53,13 @@
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
     "@stdlib/constants-float64-ninf": "^0.2.2",
     "@stdlib/constants-float64-smallest-subnormal": "^0.2.2",
     "@stdlib/math-base-assert-is-negative-zero": "^0.2.2",
     "@stdlib/math-base-assert-is-positive-zero": "^0.2.2",
     "@stdlib/math-base-special-exp2": "^0.3.0",
     "@stdlib/random-array-uniform": "^0.2.1",
-    "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
