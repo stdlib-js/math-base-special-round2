@@ -3,8 +3,34 @@
   "version": "0.3.0",
   "description": "Round a numeric value to the nearest power of two on a linear scale.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./index.mjs",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "gypfile": false,
+  "directories": {
+    "benchmark": "./benchmark",
+    "doc": "./docs",
+    "example": "./examples",
+    "include": "./include",
+    "lib": "./lib",
+    "src": "./src",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +39,49 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/constants-float64-max-base2-exponent": "^0.2.2",
+    "@stdlib/constants-float64-min-base2-exponent-subnormal": "^0.2.1",
+    "@stdlib/constants-float64-pinf": "^0.2.2",
+    "@stdlib/math-base-assert-is-infinite": "^0.2.2",
+    "@stdlib/math-base-assert-is-nan": "^0.2.2",
+    "@stdlib/math-base-napi-unary": "^0.2.3",
+    "@stdlib/math-base-special-ceil": "^0.2.2",
+    "@stdlib/math-base-special-floor": "^0.2.3",
+    "@stdlib/math-base-special-log2": "^0.3.0",
+    "@stdlib/math-base-special-pow": "^0.3.0",
+    "@stdlib/utils-library-manifest": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+  },
+  "devDependencies": {
+    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/constants-float64-ninf": "^0.2.2",
+    "@stdlib/constants-float64-smallest-subnormal": "^0.2.2",
+    "@stdlib/math-base-assert-is-negative-zero": "^0.2.2",
+    "@stdlib/math-base-assert-is-positive-zero": "^0.2.2",
+    "@stdlib/math-base-special-exp2": "^0.3.0",
+    "@stdlib/random-array-uniform": "^0.2.1",
+    "@stdlib/utils-try-require": "^0.2.2",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.2.2"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdmath",
@@ -26,6 +95,83 @@
     "nearest",
     "number"
   ],
+  "__stdlib__": {
+    "scaffold": {
+      "$schema": "math/base@v1.0",
+      "base_alias": "round2",
+      "alias": "round2",
+      "pkg_desc": "round a numeric value to the nearest power of two on a linear scale",
+      "desc": "rounds a numeric value to the nearest power of two on a linear scale",
+      "short_desc": "",
+      "parameters": [
+        {
+          "name": "x",
+          "desc": "input value",
+          "type": {
+            "javascript": "number",
+            "jsdoc": "number",
+            "c": "double",
+            "dtype": "float64"
+          },
+          "domain": [
+            {
+              "min": "-infinity",
+              "max": "infinity"
+            }
+          ],
+          "rand": {
+            "prng": "random/base/uniform",
+            "parameters": [
+              -10,
+              10
+            ]
+          },
+          "example_values": [
+            64,
+            27,
+            0,
+            0.1,
+            -9,
+            8,
+            -1,
+            125,
+            -10.2,
+            11.3,
+            -12.4,
+            3.5,
+            -1.6,
+            15.7,
+            -16,
+            17.9,
+            -188,
+            19.11,
+            -200,
+            21.15
+          ]
+        }
+      ],
+      "output_policy": "same",
+      "returns": {
+        "desc": "function value",
+        "type": {
+          "javascript": "number",
+          "jsdoc": "number",
+          "c": "double",
+          "dtype": "float64"
+        }
+      },
+      "keywords": [
+        "round",
+        "round2",
+        "nextpow2",
+        "prevpow2",
+        "nearest"
+      ],
+      "extra_keywords": [
+        "math.round"
+      ]
+    }
+  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
