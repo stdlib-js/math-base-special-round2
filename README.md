@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-round2/tags). For example,
+
+```javascript
 import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@v0.3.1-esm/index.mjs';
 ```
 
@@ -105,7 +110,7 @@ v = round2( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@v0.3.1-esm/index.mjs';
+import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
