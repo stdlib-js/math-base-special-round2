@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@esm/index.mjs';
+import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@v0.3.1-esm/index.mjs';
 ```
 
 #### round2( x )
@@ -105,7 +105,7 @@ v = round2( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@esm/index.mjs';
+import round2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round2@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
