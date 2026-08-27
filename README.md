@@ -35,6 +35,12 @@ limitations under the License.
 
 > Round a numeric value to the nearest power of two on a linear scale.
 
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
 <section class="installation">
 
 ## Installation
