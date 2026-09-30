@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-15)
+## Unreleased (2026-09-30)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#15666](https://github.com/stdlib-js/stdlib/issues/15666)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - **fix:** preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667) _(by Manit Roy)_
 -   [`b69f125`](https://github.com/stdlib-js/stdlib/commit/b69f125e64207b556cf745414f2d67b59758b514) - **docs:** add equations [(#14689)](https://github.com/stdlib-js/stdlib/pull/14689) _(by Karan Anand)_
 -   [`8c2f1cf`](https://github.com/stdlib-js/stdlib/commit/8c2f1cf76b36300b8674f4fc0e4d020dab2b0f55) - **bench:** refactor to use string interpolation in `math/base/special` [(#11389)](https://github.com/stdlib-js/stdlib/pull/11389) _(by Karan Anand)_
 
@@ -25,9 +48,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Manit Roy
 
 </section>
 
